@@ -159,7 +159,7 @@ const App = () => {
 
   const renderConnectionStatus = () => (
     <span className="connectionStatus">
-      Status: { ethNetwork ?
+      Status: { currentAccount && ethNetwork ?
         <span className="connected">Connected</span> :
         <span className="disconnected">Not connected</span>
       }
