@@ -8,7 +8,7 @@ import loading from './loading.svg';
 // Constants
 const TWITTER_HANDLE = 'kng';
 const TWITTER_LINK = `https://twitter.com/${TWITTER_HANDLE}`;
-const CONTRACT_ADDRESS = "0xF06081B1fc37D2aABF31EC55bb3E91f2F736Af90";
+const CONTRACT_ADDRESS = "0x07ffC0d27C6C8B13b03efeEB38447d6983dcbc71";
 const TOTAL_MINT_COUNT = 50;
 
 function parseEthNetworkToStr(id) {
