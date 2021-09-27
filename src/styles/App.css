@@ -38,7 +38,7 @@ a:hover {
 }
 
 .gradient-text {
-  background: linear-gradient(to right, rgb(82, 79, 107), rgb(115, 3, 192), rgb(236, 56, 188), rgb(253, 239, 249));
+  background: linear-gradient(to right, rgb(82, 79, 107), rgb(115, 3, 192), rgb(236, 56, 188));
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;

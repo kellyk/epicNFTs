@@ -8,8 +8,7 @@ import loading from './loading.svg';
 // Constants
 const TWITTER_HANDLE = 'kng';
 const TWITTER_LINK = `https://twitter.com/${TWITTER_HANDLE}`;
-const CONTRACT_ADDRESS = "0x07ffC0d27C6C8B13b03efeEB38447d6983dcbc71";
-const TOTAL_MINT_COUNT = 50;
+const CONTRACT_ADDRESS = "0xafcd48eC8a1c338206e030373ecf1386CeD1195B";
 
 function parseEthNetworkToStr(id) {
   const ETH_NETWORKS = {
@@ -174,7 +173,7 @@ const App = () => {
       <div className="container">
         <div className="header-container">
           <div className="header">
-            <span className="gradient-text">My NFT Collection</span>
+            <span className="gradient-text">D&D Character Collection</span>
             <span>{renderConnectionStatus()}</span>
           </div>
           <p className="sub-text">
