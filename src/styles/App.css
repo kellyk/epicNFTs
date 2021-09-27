@@ -23,13 +23,22 @@
   font-weight: bold;
 }
 
+a {
+  color: #ec38bc;
+  text-decoration: none;
+};
+
+a:hover {
+  text-decoration: underline;
+}
+
 .sub-text {
   font-size: 25px;
   color: white;
 }
 
 .gradient-text {
-  background: -webkit-linear-gradient(left, #60c657 30%, #35aee2 60%);
+  background: linear-gradient(to right, rgb(82, 79, 107), rgb(115, 3, 192), rgb(236, 56, 188), rgb(253, 239, 249));
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -49,7 +58,7 @@
 }
 
 .connect-wallet-button {
-  background: -webkit-linear-gradient(left, #60c657, #35aee2);
+  background: linear-gradient(to left, rgb(3, 0, 30), rgb(115, 3, 192), rgb(236, 56, 188), rgb(255, 110, 27));
   background-size: 200% 200%;
   animation: gradient-animation 4s ease infinite;
 }
@@ -122,4 +131,50 @@
   100% {
     background-position: 0% 50%;
   }
+}
+
+.svgContainer img{
+  border: 1px solid rgb(221, 220, 220);
+  margin-top: 2em;
+}
+
+.loading {
+  margin: 0 auto;
+  width: 150px;
+}
+
+.warning {
+  color: white;
+  font-weight: lighter;
+}
+
+.connected {
+  color: #ec38bc;
+}
+
+.disconnected {
+  color:rgb(221, 220, 220)
+}
+
+.connected, .disconnected {
+  margin-left: 0.7em;
+}
+
+.connectionStatus {
+  /* border-radius: 5px; */
+  max-width: 250px;
+  border: 1px solid #ec38bc;
+  border-left: 4px solid #ec38bc;
+  padding: 0.5em 1em;
+  position: fixed;
+  top: 1em;
+  right: 50px;
+  font-size: 14px;
+  color: white;
+  text-align: left;
+}
+
+.emoji-warning {
+  font-size: 1.2em;
+  color: white;
 }
