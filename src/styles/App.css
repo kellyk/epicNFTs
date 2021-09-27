@@ -38,7 +38,7 @@ a:hover {
 }
 
 .gradient-text {
-  background: linear-gradient(to right, rgb(82, 79, 107), rgb(115, 3, 192), rgb(236, 56, 188));
+  background: linear-gradient(to left, rgb(115, 3, 192), rgb(236, 56, 188), rgb(224, 93, 16));
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -58,7 +58,7 @@ a:hover {
 }
 
 .connect-wallet-button {
-  background: linear-gradient(to left, rgb(3, 0, 30), rgb(115, 3, 192), rgb(236, 56, 188), rgb(255, 110, 27));
+  background: linear-gradient(to left, rgb(40, 40, 40), rgb(115, 3, 192), rgb(236, 56, 188), rgb(224, 93, 16));
   background-size: 200% 200%;
   animation: gradient-animation 4s ease infinite;
 }
