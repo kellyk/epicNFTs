@@ -8,7 +8,7 @@ import loading from './loading.svg';
 // Constants
 const TWITTER_HANDLE = 'kng';
 const TWITTER_LINK = `https://twitter.com/${TWITTER_HANDLE}`;
-const CONTRACT_ADDRESS = "0xed23Fc811e3D16aEBd82f5ff6FE7D0A4f9b9f2A6";
+const CONTRACT_ADDRESS = "0xF06081B1fc37D2aABF31EC55bb3E91f2F736Af90";
 const TOTAL_MINT_COUNT = 50;
 
 function parseEthNetworkToStr(id) {
@@ -167,7 +167,7 @@ const App = () => {
     </span>
   );
 
-  const svgUri = `data:image/svg+xml;utf8,${svg}`;
+  const svgUri = `data:image/svg+xml;base64,${svg}`;
   console.log({svg, ethNetwork})
   return (
     <div className="App">
