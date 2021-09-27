@@ -163,7 +163,7 @@ const App = () => {
         <span className="connected">Connected</span> :
         <span className="disconnected">Not connected</span>
       }
-        <span>{ currentAccount && ethNetwork && ethNetwork !== "Rinkeby" ? renderNetworkWarning(): null}</span>
+        <span>{ currentAccount &&   ethNetwork && ethNetwork !== "Rinkeby" ? renderNetworkWarning(): null}</span>
     </span>
   );
 
